@@ -1,0 +1,55 @@
+<div class="login-page">
+
+  <!-- App Branding -->
+  <div class="brand">
+    <span class="logo">📋</span>
+    <h1>SecureTaskManager</h1>
+    <p>Sign in to manage your tasks securely</p>
+  </div>
+
+  <!-- Login Card -->
+  <div class="login-card">
+    <h2>Login</h2>
+
+    <!-- Username -->
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input
+        id="username"
+        type="text"
+        [(ngModel)]="username"
+        placeholder="Enter username"
+      />
+    </div>
+
+    <!-- Password -->
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        id="password"
+        type="password"
+        [(ngModel)]="password"
+        placeholder="Enter password"
+      />
+    </div>
+
+    <!-- Error message -->
+    <p class="error" *ngIf="error">{{ error }}</p>
+
+    <!-- Login button -->
+    <button
+      class="login-btn"
+      (click)="login()"
+      [disabled]="!username || !password"
+    >
+      Login
+    </button>
+
+    <!-- Register redirect -->
+    <p class="register-text">
+      Don’t have an account?
+      <span class="register-link" (click)="goToRegister()">Register</span>
+    </p>
+  </div>
+
+</div>
