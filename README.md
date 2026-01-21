@@ -57,69 +57,9 @@ This project was developed as part of a technical assignment to demonstrate **ba
 
 ---
 
-## 📂 Project Structure
-
-# 📋 SecureTaskManager
-
-SecureTaskManager is a **full-stack task management web application** that allows users to securely **register, log in, and manage their personal tasks**.  
-The application uses **JWT-based authentication** to protect APIs and ensure that each user can access **only their own data**.
-
-This project was developed as part of a technical assignment to demonstrate **secure backend development, REST APIs, frontend state management, and clean UI design**.
-
----
-
-## 🚀 Key Features
-
-### 🔐 Authentication & Security
-- User registration
-- User login
-- JWT token generation
-- Secured APIs using Spring Security
-- Authorization using Angular HTTP Interceptor
-
-### 📝 Task Management
-- Create tasks
-- View tasks (user-specific)
-- Update tasks
-- Delete tasks
-- UI updates without page reload
-
-### 🎨 User Interface
-- Clean and modern UI
-- Navigation bar with:
-  - Application logo
-  - Dashboard title
-  - Logged-in username
-  - Profile avatar
-  - Logout button
-- Polished Login and Register pages
-- Responsive layout
-
----
-
-## 🛠️ Tech Stack
-
-### Backend
-- Java 23
-- Spring Boot
-- Spring Security
-- JWT (JSON Web Token)
-- Spring Data JPA
-- H2 In-Memory Database
-- Maven
-
-### Frontend
-- Angular
-- TypeScript
-- HTML & CSS
-- Angular Routing
-- HTTP Interceptor
-- Standalone Components
-
----
 
 ## 📂 Project Structure
-
+```bash
 SecureTaskManager/
 │
 ├── frontend/ # Angular Frontend
@@ -135,7 +75,7 @@ SecureTaskManager/
 │
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
@@ -226,22 +166,22 @@ Frontend runs at: http://localhost:4200
 
 Screenshots are stored in the screenshots/ folder.
 
-🔑 Login Page
-```md
+### 🔑 Login Page
+
 ![Login Page](screenshots/login.png)
-```
-📝 Register Page
-```md
+
+### 📝 Register Page
+
 ![Registeration Page](screenshots/register.png)
-```
-📋 Dashboard – Task List
-```md
+
+### 📋 Dashboard – Task List
+
 ![Dashboard](screenshots/dashboard.png)
-```
-✏️ Edit Task
-```md
+
+### ✏️ Edit Task
+
 ![Edit Task](screenshots/edit-task.png)
-```
+
 ---
 ## ✅ Assignment Requirements Covered
 
@@ -253,10 +193,10 @@ Screenshots are stored in the screenshots/ folder.
 - ✔ Clean UI design
 - ✔ GitHub version control
 - ✔ Complete documentation
----
-##👤 Author
 
-Prathmesh
+---
+
+**👤 Author - Prathmesh**
 --- 
 
 ## 📌 Notes
@@ -266,5 +206,5 @@ Prathmesh
 - Focus is on security, correctness, and clean architecture.
 
 ## ⭐ Conclusion
-SecureTaskManager demonstrates a complete secure full-stack web application with proper authentication, authorization, backend security, and a user-friendly frontend.
+- SecureTaskManager demonstrates a complete secure full-stack web application with proper authentication, authorization, backend security, and a user-friendly frontend.
 
